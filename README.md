@@ -278,6 +278,18 @@ It's crucial to introduce the core principles that underpin DevOps:
 
 ---
 
+**Mapping DevOps Tools to an Amazon-like Startup**
+Business Need	DevOps Tool	Why It's Needed?
+Code Collaboration	Git, GitHub/GitLab	Developers need version control
+Code Compilation & Packaging	Maven, Gradle	Converts code into a deployable format
+Configuration Management	Ansible, Chef	Automates setting up servers & configs
+Infrastructure as Code	Terraform	Defines cloud infrastructure as code
+Containerization	Docker	Packages applications for portability
+Scaling & Orchestration	Kubernetes	Manages & scales containers
+Continuous Integration & Deployment	Jenkins, GitHub Actions	Automates build, test, and deployment
+Monitoring & Logging	Prometheus, Grafana, Fluentd	Tracks system performance & logs
+Security & Compliance	Vault, AWS IAM, RBAC	Manages access control & secrets
+
 ### **9. Final Projects**
 
 - **Projects:**
