@@ -1,1 +1,169 @@
+# Your Path to Linux Expertise: 18-Day Course
+
+**By Avinash Reddy Thipparthi**  
+[YouTube](https://youtube.com/@avizway) | [LinkedIn](https://www.linkedin.com/in/avizway/)
+
+---
+
+## 📚 What Will You Learn?
+- What is Linux?
+- Why use Linux?
+- Understanding Open Source
+- Linux Distributions
+- Linux Boot Process
+- Directory Structure
+- Basic Commands
+- File Management
+- User Management
+- Process Management
+- Package Management
+- Networking & Hostname Setup
+
+---
+
+## 🐧 What is Linux?
+Linux is an open-source Unix-like operating system based on the Linux kernel, released on September 17, 1991, by Linus Torvalds. Linux is usually packaged as a Linux distribution.
+
+[More about Linux](https://en.wikipedia.org/wiki/Linux)
+
+---
+
+## 🚀 Why Use Linux?
+- **Free**
+- **Stable**
+- **Secure**
+- **Open Source**
+- Runs on **Supercomputers, IoT, Embedded Systems, Satellites, Flight Simulators, Cryptocurrency Mining, ADAS, etc.**
+
+---
+
+## 🌍 Open Source?
+Open-source software allows users to:
+- Access and modify source code.
+- Run programs for any purpose.
+- Distribute freely.
+
+[Download Linux Kernel](https://www.kernel.org/)
+
+---
+
+## 🏆 Linux Distributions
+
+### Debian-based:
+- Ubuntu
+- Linux Mint
+- Kali Linux
+
+### Red Hat-based:
+- CentOS (Free)
+- Fedora (Paid support)
+
+---
+
+## ⚡ Linux Boot Process
+1. **Init Process**
+   - Reads `/etc/inittab` for run level.
+   - Loads appropriate programs (default levels: 3 or 5).
+2. **Runlevel Programs**
+   - Startup programs execute from `/etc/rc.d/rcX.d/`.
+   - Example: `chkconfig --list`
+3. **Boot Issues**
+   - File system corruption due to improper shutdown.
+   - RAM as a disk buffer leads to unsaved data loss.
+
+---
+
+## 📂 Linux Directory Structure
+
+| Directory | Description |
+|-----------|------------|
+| `/` | Root directory. The top-level directory that contains all other directories. |
+| `/root` | Home directory for the root user (superuser). Equivalent to `C:\Users\Administrator` on Windows. |
+| `/home` | Home directory for regular users. Each user has their own subdirectory. |
+| `/bin` | Contains essential system binaries used by all users, e.g., `ls`, `cp`, `mv`. |
+| `/boot` | Holds the Linux kernel, bootloader files, and boot configurations. |
+| `/dev` | Contains device files like `/dev/hda` (hard disk) and `/dev/cdrom` (CD-ROM). Similar to Device Manager in Windows. |
+| `/etc` | System-wide configuration files, such as `/etc/passwd` for user info and `/etc/resolv.conf` for DNS settings. |
+| `/usr` | Contains installed software and user programs (similar to `C:\Program Files`). |
+| `/sbin` | System binaries used only by the superuser (`root`), such as system utilities. |
+| `/var` | Stores variable data like logs (`/var/log/messages`), databases (`/var/lib/mysql`), and spool files. |
+| `/mnt` | Used to mount temporary file systems, usually empty by default. |
+| `/media` | Auto-mount point for removable media like USB drives, CDs, and DVDs. |
+| `/lib` | Stores shared libraries (`.so` files) needed by applications and the OS. Similar to `.dll` files in Windows. |
+| `/proc` | Virtual directory containing real-time system info, such as CPU and memory usage. |
+| `/lib64` | Holds 64-bit libraries required by the system. |
+| `/opt` | Stores optional or third-party software packages, each in its own subdirectory. |
+
+---
+
+## 📜 Basic Linux Commands
+```bash
+pwd       # Print working directory
+ls        # List files and directories
+cd ..     # Move one level up
+touch file.txt  # Create an empty file
+cp file1 file2  # Copy a file
+mv file1 file2  # Rename or move a file
+rm file.txt     # Remove a file
+```
+
+---
+
+## ✏️ Vim Editor
+```bash
+vim filename  # Open file in Vim
+:wq  # Save and exit
+:q!  # Quit without saving
+```
+
+**Modes:**
+- **Command Mode:** Navigation, deletion, copy.
+- **Insert Mode:** Insert text (`i` to enter, `Esc` to exit).
+
+---
+
+## 🗄️ File Management
+```bash
+cat filename  # View file contents
+head -n 5 file.txt  # View top 5 lines
+tail -n 5 file.txt  # View last 5 lines
+wc file.txt  # Count lines, words, bytes
+```
+
+### Compress Files:
+```bash
+zip archive.zip file1.txt file2.txt  # Create ZIP
+unzip archive.zip  # Extract ZIP
+tar czvf archive.tar.gz directory/  # Create TAR.GZ
+tar xzvf archive.tar.gz  # Extract TAR.GZ
+```
+
+---
+
+## 🔑 Managing Permissions
+```bash
+ls -l  # View permissions
+chmod 755 file  # Set permissions (rwxr-xr-x)
+chmod u+x file  # Give execute permission to user
+chown user file  # Change file ownership
+```
+
+---
+
+## 🔄 Process Management
+```bash
+ps aux  # List all processes
+pstree  # View process tree
+top  # Real-time process monitoring
+kill PID  # Kill a process by PID
+```
+
+---
+
+## 🔥 Want More?
+Check out my [YouTube Channel](https://youtube.com/@avizway) and [LinkedIn](https://www.linkedin.com/in/avizway/) for more Linux content!
+
+---
+
+This guide provides a **structured roadmap** for mastering Linux. Feel free to contribute and enhance this repository! 🚀
 
