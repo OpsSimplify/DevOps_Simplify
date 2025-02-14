@@ -349,6 +349,12 @@ Open-source software allows users to:
 
 ---
 
+## Linux Boot process 
+
+![Uploading image.png…]()
+
+---
+
 ## 🏆 Linux Distributions
 
 ### Debian-based:
